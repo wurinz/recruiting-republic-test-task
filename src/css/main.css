@@ -1,0 +1,244 @@
+h1{
+    color: #FFFFFF;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 32px 0 24px 0;
+}
+h3{
+    font-size: 24px;
+    line-height: 28px;
+    margin: 24px 0 16px 0;
+}
+p{
+    line-height: 24px;
+    font-size: 16px;
+}
+.container{
+    margin: auto;
+}
+section{
+    max-width: 1312px;
+    margin: auto;
+    padding: 0 20px 0 20px;
+}
+.header_carousel{
+    display: none;
+}
+.our_directory{
+    margin: 96px auto;
+}
+.why_our_directory{
+    display: flex;
+    justify-content: space-between;
+}
+.advantage{
+    width: 23.2%;
+}
+.advantage img{
+    padding-bottom: 12px;
+}
+article{
+    padding: 104px 0;
+    width: 100%;
+    background-image: url("../img/woman_fullscreen.png");
+    margin: 72px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.advartise_text{
+    width: 528px;
+}
+.advartise_text p{
+    width: 416px;
+    color: #FFFFFF;
+    margin: 24px 0 32px 0;
+    font-weight: 100;
+}
+.request_btn{
+    width: 204px;
+    height: 48px;
+    outline: 0;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 24px;
+    background: rgb(84,70,149);
+    background: linear-gradient(90deg, rgba(84,70,149,1) 0%, rgba(156,139,234,1) 100%);
+    transition: .1s all ease-in-out;
+}
+.request_btn:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.control-dots{
+    bottom: -40%;
+    position: absolute;
+}
+
+
+
+.iClaria_living{
+    text-align: center;
+    padding: 48px 0 72px 0;
+
+}
+
+.carousel{
+    margin-top: 32px;
+}
+
+
+
+
+.request{
+    margin-top: 72px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.request_info_text{
+    max-width: 528px;
+    padding: 0 0 32px 0;
+}
+.request_info_text p{
+    margin-bottom: 40px;
+}
+.request_info_form{
+    width: 100%;
+    margin-left: 32px;
+}
+
+
+
+
+.form p{
+    position: relative;
+    margin-bottom: 32px;
+}
+.input{
+    font-style: italic;
+    color: #8b92abb9;
+    width: 95%;
+    height: 48px;
+    font-size: 16px;
+    padding-left: 16px;
+    border: none;
+    border-bottom: 3px dashed #8267e331;
+}
+.input:focus{
+    outline: none;
+}
+
+.error{
+    color: rgba(255, 0, 0, 0.562);
+    margin-left: 32px;
+    position: absolute;
+    margin-top: 3px;
+}
+.form_btn{
+    margin-top: 48px;
+}
+
+footer{
+    width: 100%;
+    height: 116px;
+    padding-top: 64px;
+    background-color: #3B455A;
+} 
+footer p{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 900px) {
+    .advantage{
+        width: 304px;
+    }
+    .why_our_directory{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .request_info_text{
+        margin: auto;
+        text-align: center;
+    }
+    .request_info_form{
+        margin: 0;
+    }
+    .request{
+        margin: auto;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 72px;
+    }
+    .request_btn{
+        width: 192px;
+        height: 36px;
+        font-size: 16px;
+    }
+    .form{
+        text-align: center;
+    }
+    .input{
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 690px){
+    .advantage{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .our_directory{
+        margin: 16px auto;
+    }
+    .header_carousel{
+        display: block;
+    }
+    .why_our_directory{
+        display: none;
+    }
+    .advantage.responsive{
+        text-align: left;
+        margin-bottom: 48px;
+        width:90%;
+    }
+    .header_carousel .control-dots{
+        text-align: left;
+    }
+    article{
+        background-image: url("../img/woman_adaptive.png");
+    }
+    .advartise_text{
+        width: 90%;
+    }
+    .advartise_text p{
+        width: 100%;
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .request_info_text img{
+        width: 100%;
+    }
+    footer{
+        height: 88px;
+        padding-top: 30px;
+    }
+}
